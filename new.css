@@ -36,6 +36,7 @@ margin-top: 10px;
   .navbar-brand {
     display: flex;
     align-items: center;
+    font-size: large;
   }
   
   .navbar-name {
@@ -58,6 +59,8 @@ margin-top: 10px;
     color: white;
     border: none;
     cursor: pointer;
+    font-size: bold;
+    margin-right: 30px;
   }
   
   .dropdown-content {
@@ -111,4 +114,7 @@ margin-top: 10px;
   .other-btn,
   .another-btn {
     background-color: #333;
+  }
+  .icon-search{
+    height: 25px;
   }
