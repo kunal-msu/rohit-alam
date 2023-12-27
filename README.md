@@ -1,1 +1,1 @@
-connit my code
+connect my code
