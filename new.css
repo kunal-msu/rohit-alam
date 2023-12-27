@@ -18,9 +18,9 @@
   .navbar {
     background-color: purple;
     height: 500px;
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    padding: 7px;
+    padding:0px,22px,0px,19px;
     color: white;
   }
   
@@ -121,4 +121,5 @@
   background-color:tr;
   height: 60px;
   padding-left: 30px;
+  margin-right: 400px;
   }
