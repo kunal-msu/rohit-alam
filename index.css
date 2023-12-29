@@ -4,11 +4,20 @@
 }
 .container-fluid{
     background-color:purple;
+    height: 500px;
     padding-bottom: 225px;
-    padding-top: 25px;
-    padding-left: 225px;
+    padding-top: 75px;
+    padding-left: 325px;
 }
 .navbar-brand{
     color: white;
     
+}
+
+.navigation{
+    text-align: center;
+    height: 180px;
+}
+.img{
+    height: 100px;
 }
