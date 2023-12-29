@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color:purple;
+    padding-bottom: 225px;
+    padding-top: 25px;
+    padding-left: 225px;
+}
+.navbar-brand{
+    color: white;
+    
+}
