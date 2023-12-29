@@ -13,11 +13,17 @@
     color: white;
     
 }
-
+p.span{
+    font-size: large;
+}
 .navigation{
     text-align: center;
     height: 180px;
 }
 .img{
     height: 100px;
+}
+.new{
+    padding-left: 325px;
+
 }
