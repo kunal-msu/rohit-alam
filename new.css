@@ -18,9 +18,9 @@
   .navbar {
     background-color: purple;
     height: 500px;
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    padding: 7px;
+    padding:0px,22px,0px,19px;
     color: white;
   }
   
@@ -85,9 +85,8 @@
     align-items: center;
     padding-top: 40px;
     padding-bottom: 60px;
-    margin-bottom: 500px;
-    margin-right: 400px;
-    
+   height: 44px;
+  
 
   }
   
@@ -96,12 +95,6 @@
     margin-right: 10px;
   }
   
-  .fa-search {
-    color: white;
-    margin-right: 10px;
-  }
-  
-  .signup-btn,
   .other-btn,
   .another-btn {
     margin-right: 10px;
@@ -112,11 +105,21 @@
     color: white;
     border-radius: 4px;
   }
+.signup-btn {
+  background-color: transparent;
+
+}
   
   .other-btn,
   .another-btn {
     background-color: #333;
   }
   .icon-search{
-    height: 25px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:tr;
+  height: 60px;
+  padding-left: 30px;
+  margin-right: 400px;
   }
