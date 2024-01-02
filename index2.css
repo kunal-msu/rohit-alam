@@ -1,0 +1,34 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.container{
+  background-color: rgb(172, 222, 231);
+}
+/* index2.css */
+
+/* Styles for navigation bar */
+.navbar {
+  background-color: #f8f9fa;
+  /* Additional styling for the navbar */
+}
+
+.navbar img {
+  height: 40px;
+  width: auto;
+  margin-right: 20px;
+  /* Styling for the logo image */
+}
+
+/* .nav-link {
+  /* Styling for navigation links */
+  /* You can add more specific styles based on your preferences */
+ */
+
+/* .dropdown-menu {
+  /* Styling for dropdown menus */
+  /* Customize as needed */
+ */
+
+/* Additional styles for your page components can be added here */
+
