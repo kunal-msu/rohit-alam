@@ -32,8 +32,11 @@ font-family: 'Roboto', sans-serif;
 
 .header-link-list{
   list-style:none;
+  
 }
-
+.header-link-list a:hover{
+  text-decoration: underline;
+}
 .header-link-list{
   flex-grow:3;
   display:flex;
@@ -51,9 +54,9 @@ li{
  align-content:center;
 }
 
-.button{
+/* .button{
   
-}
+} */
 
 .header-hero-text-primary{
   font-family: 'Roboto', sans-serif;
@@ -100,12 +103,25 @@ li{
 }
 .navigation{
   
-  padding-right: 200px;
-  border: red;
+  padding-right: 300px;
+  border:whitesmoke;
+  border-radius: 5px;
+  padding: 30px;
+
+
   
 }
 .btn{
   background-color: white;
   color:  white;
   padding-left: 72px;
+}
+.btn-light{
+  color: transparent;
+}
+.btn-outline{
+color: #ffffff;
+}
+.btn-outline a:hover{
+  text-decoration: underline;
 }
