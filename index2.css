@@ -1,34 +1,111 @@
-/* *{
-  margin: 0;
-  padding: 0;
+.nav-text{
+  
+}
+.header-hero{
+  padding:20px 50px;
+  color:white;
+/*   font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+  background-color:purple;
+}
+.header-logo-text{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  margin-left:3px;
+}
+.header-nav{
+  flex-grow:1;
+  display:flex;
+  align-items:center;
+}
+
+.header-logo-image{
+  height:20px;
+  width:20px;
+  display:flex;
+}
+
+.header-logo{
+  display:flex;
+  align-content:center;
+}
+
+.header-link-list{
+  list-style:none;
+}
+
+.header-link-list{
+  flex-grow:3;
+  display:flex;
+  justify-content:left;
+  margin-left:10px;
+}
+li{
+  margin-left:20px;
+}
+
+.header-signed-out{
+ display:flex;
+ flex-grow:2;
+ justify-content:right;
+ align-content:center;
+}
+
+.button{
+  
+}
+
+.header-hero-text-primary{
+  font-family: 'Roboto', sans-serif;
+}
+.header-hero-text-secondary{
+  color:#fcbe03;
+}
+
+.header-hero-signup-email{
+  padding:20px;
+  border-radius:5px;
+  border-color:purple;
+}
+.header-hero-signup-google{
+  padding:9px;
+  border-radius:5px;
+  background-color:blue;
+  color:white;
+  
+  
+}
+
+.logo-google{
+  height: 50px;
+  
+}
+
+.hero-content-video{
+  width:50%;
+  /* color:red; */
+  background-color:transparent;
+}
+
+.header-hero-content{
+  display:flex;
+}
+
+/* .header-hero-text{
+  
 } */
-.container{
-  background-color: rgb(172, 222, 231);
+.video-web{
+  height:390px;
+  padding-left: 75px;
 }
-/* index2.css */
-
-/* Styles for navigation bar */
-.navbar {
-  background-color: #f8f9fa;
-  /* Additional styling for the navbar */
+.navigation{
+  
+  padding-right: 200px;
+  border: red;
+  
 }
-
-.navbar img {
-  height: 40px;
-  width: auto;
-  margin-right: 20px;
-  /* Styling for the logo image */
+.btn{
+  background-color: white;
+  color:  white;
+  padding-left: 72px;
 }
-
-/* .nav-link {
-  /* Styling for navigation links */
-  /* You can add more specific styles based on your preferences */
- */
-
-/* .dropdown-menu {
-  /* Styling for dropdown menus */
-  /* Customize as needed */
- */
-
-/* Additional styles for your page components can be added here */
-

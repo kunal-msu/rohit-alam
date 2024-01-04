@@ -1,63 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Video in Navbar</title>
-  <style>
-    /* Your CSS styles go here */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    header {
-      background-color: #c70d0d;
-      color: #fff;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .navbar-links {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-
-    .navbar-links li {
-      margin-right: 20px;
-    }
-
-    /* Style for the embedded video */
-    .navbar-video {
-      width: 200px;
-      height: 120px;
-      border: none;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <title>Slack-web-page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index2.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body>
-  <header>
-    <div class="navbar-brand">
-      <h1>Your Logo</h1>
-    </div>
-    <ul class="navbar-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <div class="navbar-video"> 
-      <iframe width="200" height="120" src="slack..mp4" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </header>
 
-  <!-- Other content of your page -->
-  <main>
-    <!-- Other sections, content, etc. -->
-  </main>
+<body>
+  <header class="header-hero">
+
+    <nav class="header-nav">
+      <div class="header-logo">
+        <img src="https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png" alt="logo" class="header-logo-image">
+        <span class="header-logo-text">Slack</span>
+      </div>
+
+      <ul class="header-link-list">
+        <li>Features</li>
+        <li>Solutions</li>
+        <li>Enterprice</li>
+        <li>Resource</li>
+        <li>Pricing</li>
+
+      </ul>
+     
+      <div class="navigation">
+        <button class="btn btn-outline- me-2" type="button">Talk To Sale</button>
+        <button class="btn btn-sm btn-outline-" type="button">Try For Free</button>
+      </div>
+
+    </nav>
+
+    <div class="header-hero-content">
+      <div class="header-hero-text">
+        <h1 class="header-hero-text-primary">
+          Made for people
+        </h1>
+        <h1 class="header-hero-text-secondary">
+          Build for productivity.
+        </h1>
+        <p>
+          Connect the right people, find anything that you need and automate the rest. That's work in Slack, your
+          productivity platform.
+        </p>
+        <div class="header-hero-login-signup">
+          <button class='header-hero-signup-email'>
+            <a href="https://mail.google.com/?login"></a>
+            SIGN UP WITH EMAIL ADDRESS
+          </button>
+          <button class='header-hero-signup-google'>
+            <img src="google.logo.png" alt="Logo" class="logo-google">
+            <a href="https://www.google.in/"></a>
+            SIGN UP WITH GOOGLE
+          </button>
+        </div>
+      </div>
+      <div class="hero-content-video">
+        <video controls autoplay loop class="video-web">
+          <source src="slack..mp4" type="video/mp4">
+        </video>
+      </div>
+
+    </div>
+
+  </header>
 </body>
+
 </html>

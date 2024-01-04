@@ -7,8 +7,8 @@
 .container-fluid {
     background-color: purple;
     padding-left: 425px;
-    padding-bottom: 300px;
-    height: 600px;
+    padding-bottom: 500px;
+    height: 700px;
     display: flex;
   }
   
@@ -17,27 +17,29 @@
   }
   
   .nav-link:hover {
-    color: red;
+    color: rgb(47, 0, 255);
   }
   
   /* Text and video section */
-  spanish {
+  .spanish {
     width: 100%;
+    padding-right: 700px;
+    height: 50%;
   }
   
   .video-web {
     height: 300px;
     padding-right: 200px;
     padding-left: 200px;
-    background-color: purple;
-    justify-content: center;
+    /* background-color: purple; */
+    justify-content: left;
     margin-left: 1000px;
   }
   
   p {
     font-size: large;
-    padding-left: 325px;
-    padding-bottom: 200px;
+    padding-bottom:700px;
+    
   }
   
   /* Footer styles */
@@ -84,7 +86,7 @@
   
   @media (max-width: 720px) {
     .footer {
-      text-align: left;
+      text-align: center;
       padding: 5%;
     }
   
@@ -97,4 +99,8 @@
     .footer .row a i {
       margin: 0% 3%;
     }
+  }
+  
+  #global{
+    position: relative;
   }
