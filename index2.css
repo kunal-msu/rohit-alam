@@ -1,13 +1,16 @@
-.nav-text{
+/* .nav-text{
   
-}
+} */
 .header-hero{
   padding:20px 50px;
   color:white;
-/*   font-family: 'Poppins', sans-serif; */
+font-family: 'Poppins', sans-serif; 
 font-family: 'Roboto', sans-serif;
   background-color:purple;
+  
 }
+
+
 .header-logo-text{
   color:white;
   font-family: 'Poppins', sans-serif;
@@ -20,10 +23,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .header-logo-image{
-  height:20px;
-  width:20px;
-  display:flex;
-  /* padding-left: 23px; */
+  height:90px;
+  width: 9.9em;
+  /* display:flex; */
+  padding-left: 23px;
 }
 
 .header-logo{
@@ -31,7 +34,7 @@ font-family: 'Roboto', sans-serif;
   align-content:center;
 }
 
-.header-link-list{
+.header-link-list{                   /* dot dropdown */
   list-style:none;
   
 }
@@ -112,6 +115,9 @@ li{
 
   
 }
+.h4-p{
+  padding-top: 40px;
+}
 .btn{
   background-color: white;
   color:  white;
@@ -125,4 +131,92 @@ color: #ffffff;
 }
 .btn-outline a:hover{
   text-decoration: underline;
+}
+.container{
+  display: flex;
+  font-size: 14px;
+  
+}
+
+.drop-down{
+  display: flex;
+  
+ list-style: none;
+}
+/* ********************************************** */
+/* styles.css */
+/* Basic styling for the dropdown */
+.header-link-list {
+  position: relative;
+}
+ 
+.drop-down {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color:whitesmoke;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+  border: 1px solid rgb(3, 3, 3);
+  padding: 10px;
+  padding: auto;
+}
+
+/* Show dropdown when hovering over the header link */
+.header-link-list :hover .drop-down  {
+  display:flex;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Styling for the dropdown items */
+.drop-down li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+/* Styling for the links in the dropdown */
+.drop-down li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+    cursor: pointer;
+  
+}
+
+.drop-down li a:hover {
+  color: #ff6600;
+} 
+
+
+.mt-0{
+  text-align: center;
+  padding-top: 35px;
+  font-size: medium;
+}
+.ms-3{
+  text-align: center;
+}
+.video-web{
+  margin: 3rem 0 0 -3rem;
+  background-color: transparent;
+
+}
+
+.float-left{
+text-align: center;
+padding-left: 690px;
+
+}
+.hero{
+  text-align:center;
+  
+  margin-top: 77px;
+  font-weight: bold ;
+}
+.content-box{
+  background-color: whitesmoke;
 }
