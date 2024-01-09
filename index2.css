@@ -411,3 +411,11 @@ div.row{
 #fool{
   display: flex;
 }
+
+.row{
+  display: flex;
+  padding-left: 456px;
+}
+#idiot{
+  padding-left: 86px;
+}
