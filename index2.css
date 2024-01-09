@@ -1,172 +1,189 @@
-.header-hero{
-  padding:20px 50px;
-  color:white;
-font-family: 'Poppins', sans-serif; 
-font-family: 'Roboto', sans-serif;
-  background-color:purple;
-  
-}
-
-
-.header-logo-text{
-  color:white;
+.header-hero {
+  padding: 20px 50px;
+  color: white;
   font-family: 'Poppins', sans-serif;
-  margin-left:3px;
-}
-.header-nav{
-  flex-grow:1;
-  display:flex;
-  align-items:center;
- 
+  font-family: 'Roboto', sans-serif;
+  background-color: purple;
+
 }
 
-.header-logo-image{
-  height:90px;
+
+.header-logo-text {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 3px;
+}
+
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+
+}
+
+.header-logo-image {
+  height: 90px;
   width: 9.9em;
   /* display:flex; */
   padding-left: 23px;
 }
 
-.header-logo{
-  display:flex;
-  align-content:center;
+.header-logo {
+  display: flex;
+  align-content: center;
 }
 
-.header-link-list{                   /* dot dropdown */
-  list-style:none;
+.header-link-list {
+  /* dot dropdown */
+  list-style: none;
 }
-.header-link-list a:hover{
+
+.header-link-list a:hover {
   text-decoration: none;
 }
-.header-link-list{
-  flex-grow:3;
-  display:flex;
-  justify-content:left;
-  margin-left:10px;
-  
-}
-li{
-  margin-left:20px;
-  
+
+.header-link-list {
+  flex-grow: 3;
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+
 }
 
-.header-signed-out{
- display:flex;
- flex-grow:2;
- justify-content:right;
- align-content:center;
+li {
+  margin-left: 20px;
+
+}
+
+.header-signed-out {
+  display: flex;
+  flex-grow: 2;
+  justify-content: right;
+  align-content: center;
 }
 
 /* .button{
   
 } */
 
-.header-hero-text-primary{
+.header-hero-text-primary {
   font-family: 'Roboto', sans-serif;
 }
-.header-hero-text-secondary{
-  color:#fcbe03;
+
+.header-hero-text-secondary {
+  color: #fcbe03;
 }
 
-.header-hero-signup-email{
-  padding:20px;
-  border-radius:5px;
-  border-color:purple;
-}
-.header-hero-signup-google{
-  padding:9px;
-  border-radius:5px;
-  background-color:blue;
-  color:white;
-  
-  
+.header-hero-signup-email {
+  padding: 20px;
+  border-radius: 5px;
+  border-color: purple;
 }
 
-.logo-google{
+.header-hero-signup-google {
+  padding: 9px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+
+
+}
+
+.logo-google {
   height: 50px;
-  
+
 }
 
-.hero-content-video{
-  width:60%;
+.hero-content-video {
+  width: 60%;
   height: 50%;
   /* color:red; */
-  background-color:transparent;
+  background-color: transparent;
 }
 
-.header-hero-content{
-  display:flex;
+.header-hero-content {
+  display: flex;
 }
 
 /* .header-hero-text{
   
 } */
-.video-web{
-  height:390px;
+.video-web {
+  height: 390px;
   padding-left: 75px;
 }
-.navigation{
-  
+
+.navigation {
+
   padding-right: 300px;
-  border:whitesmoke;
+  border: whitesmoke;
   border-radius: 5px;
   padding: 30px;
 
 
-  
+
 }
-.h4-p{
+
+.h4-p {
   padding-top: 40px;
 }
-.btn{
+
+.btn {
   background-color: white;
-  color:  white;
+  color: white;
   padding-left: 82px;
   width: 18%;
 }
-.btn-light{
+
+.btn-light {
   color: transparent;
   width: 120px;
 }
-#sign5{
+
+#sign5 {
   width: 120px;
   color: whitesmoke;
 
 }
-#sign5 :hover{
+
+#sign5 :hover {
   border: 3px solid white;
 }
-.btn-outline{
-color: #ffffff;
-}
-.btn-outline a:hover{
-  text-decoration: underline;
-}
-.container{
-  display: flex;
-  font-size: 14px;
-  
+
+.btn-outline {
+  color: #ffffff;
 }
 
-.drop-down{
-  display: flex;
-  
- list-style: none;
+.btn-outline a:hover {
+  text-decoration: underline;
 }
+
+.container {
+  display: flex;
+  font-size: 14px;
+
+}
+
+.drop-down {
+  display: flex;
+
+  list-style: none;
+}
+
 /* ********************************************** */
 /* styles.css */
 /* Basic styling for the dropdown */
 .header-link-list {
   position: relative;
 }
- 
+
 .drop-down {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
   z-index: 1;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   color: black;
   font-weight: bold;
   font-size: medium;
@@ -176,8 +193,8 @@ color: #ffffff;
 }
 
 /* Show dropdown when hovering over the header link */
-.header-link-list :hover .drop-down  {
-  display:flex;
+.header-link-list :hover .drop-down {
+  display: flex;
   cursor: pointer;
   text-decoration: none;
 }
@@ -193,66 +210,72 @@ color: #ffffff;
   text-decoration: none;
   color: #333;
   display: flex;
-    cursor: pointer;
-  
+  cursor: pointer;
+
 }
 
 .drop-down li a:hover {
   color: #ff6600;
-} 
+}
 
 
-.mt-0{
+.mt-0 {
   text-align: center;
   padding-top: 35px;
   font-size: medium;
 }
-.ms-3{
+
+.ms-3 {
   text-align: center;
 }
-.video-web{
+
+.video-web {
   margin: 3rem 0 0 -3rem;
   background-color: transparent;
 
 }
 
-.float-left{
-align-items: center;
-padding-left: 749px;
+.float-left {
+  align-items: center;
+  padding-left: 749px;
 }
 
 
-.hero{
-  text-align:center;
-  
+.hero {
+  text-align: center;
+
   margin-top: 77px;
-  font-weight: bold ;
+  font-weight: bold;
 }
-.content-box{
+
+.content-box {
   background-color: rgb(235, 231, 217);
 }
-.mad{
+
+.mad {
   text-align: center;
   margin: 122px auto;
   font-weight: 22px;
 }
-.hyper{
+
+.hyper {
   font-weight: 78%;
 }
 
-.spider{
+.spider {
   margin: 22px auto;
   padding-left: 749px;
 }
 
-.normal{
+.normal {
   border: 8px solid purple;
   border-radius: 6px;
   height: 55px;
   width: 270px;
   background-color: purple;
 }
-.white{
+
+.white {
   height: 55px;
   width: 160px;
   border-radius: 6px;
@@ -262,76 +285,129 @@ padding-left: 749px;
 
 
 
-h1.num1{
+h1.num1 {
   font-size: 80px;
-  font-weight:bold;
+  font-weight: bold;
   color: purple;
   text-align: justify;
-  
+
 }
-h1.num2{
+
+h1.num2 {
   font-size: 80px;
-  font-weight:bold;
+  font-weight: bold;
   color: purple;
 }
-.origin{
+
+.origin {
   display: flex;
   text-align: center;
   padding: 88px 110px;
 }
 
-h1.num3{
+h1.num3 {
   font-size: 80px;
-  font-weight:bold;
+  font-weight: bold;
   color: purple;
 }
-.muscle{
+
+.muscle {
   padding-left: 464px;
 }
-.magician{
+
+.magician {
   padding-left: 245px;
-  
+
 }
-.enimy{
+
+.enimy {
   text-align: center;
 }
-h1.legal{
+
+h1.legal {
   text-align: center;
   padding-top: 13px;
   font-size: 35px;
   font-weight: 800px;
 }
-div.container2{
+
+div.container2 {
   background-color: rgb(243, 235, 220);
   padding-top: 12px;
 }
-.col{
+
+.col {
   flex: 0 0 auto;
   width: 78%;
   padding: 2px 45px;
-  
+
 }
-.col :hover{
+
+.col :hover {
   background-color: #fff;
- 
+
 }
-div.card{
-  background-color:whitesmoke;
+
+div.card {
+  background-color: whitesmoke;
   width: 265px;
   gap: 12%;
-  padding:15px 5px ;
+  padding: 15px 5px;
+}
+
+h6.card-title {
+  padding-bottom: 13px;
+}
+
+#alag {
+  padding-left: 25px;
+}
+
+#alag2 {
+  padding-left: 25px;
+}
+
+#alag3 {
+  padding-right: 25px;
+}
+div.row{
+  padding-top: 32px;
+}
+
+.ironman {
+
+  text-align: center;
+  margin: 122px auto;
+  font-weight: 22px;
   
 
 }
-h6.card-title{
-  padding-bottom: 13px;
+
+.thor{
+  text-align: center;
+  padding-top: 13px;
+  font-size: 35px;
+  font-weight: 800px;
+  color: rgb(190, 190, 190); 
+ 
 }
-#alag{
-  padding-left: 25px;
+.marvel{
+  background-color: rgb(55, 5, 55);
+  height: 255px;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 120px;
 }
-#alag2{
-  padding-left: 25px;
+.blackwidow{
+  border-radius: 6px;
+  height: 55px;
+  width: 230px;
+  background-color: white;
+  transition: background-color;
 }
-#alag3{
-  padding-right: 25px;
+#oden{
+  width: 230px;
+  height: 53px;
+}
+#fool{
+  display: flex;
 }
