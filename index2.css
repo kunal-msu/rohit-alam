@@ -295,14 +295,43 @@ h1.num3{
 .enimy{
   text-align: center;
 }
-.legend{
-  background-color: rgb(245, 232, 207);
-  height: 556px;
+h1.legal{
   text-align: center;
-  padding-top: 3%;
-  font-weight: 122px;
-  font-size: 34px;
+  padding-top: 13px;
+  font-size: 35px;
+  font-weight: 800px;
 }
-.main{
-  display: flex;
+div.container2{
+  background-color: rgb(243, 235, 220);
+  padding-top: 12px;
+}
+.col{
+  flex: 0 0 auto;
+  width: 78%;
+  padding: 2px 45px;
+  
+}
+.col :hover{
+  background-color: #fff;
+  transition: width 2s;
+}
+div.card{
+  background-color:whitesmoke;
+  width: 265px;
+  gap: 12%;
+  padding:15px 5px ;
+  
+
+}
+h6.card-title{
+  padding-bottom: 13px;
+}
+#alag{
+  padding-left: 25px;
+}
+#alag2{
+  padding-left: 25px;
+}
+#alag3{
+  padding-right: 25px;
 }
