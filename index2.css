@@ -7,17 +7,25 @@
 
 }
 
-#gmail-logo{
+#gmail-logo {
   border: 2px solid red;
-  display:inline;
-  text-decoration:none;
+  display: inline;
+  text-decoration: none;
   height: 77px;
   padding-bottom: 63px;
 }
 
-#googlelogo{
+#googlelogo {
   height: 75px;
 }
+.col-lg-2 {
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 16.66666667%;
+    font-size: 20px;
+  text-decoration: none;}
 
 .header-logo-text {
   color: white;
@@ -84,15 +92,15 @@ li {
 .header-hero-text-primary {
   font-family: 'Anton', sans-serif;
   font-size: 80px;
-    font-weight: 600;
-  
+  font-weight: 600;
+
 }
 
 .header-hero-text-secondary {
   color: #fcbe03;
   font-family: 'Anton', sans-serif;
   font-size: 80px;
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .header-hero-signup-email {
@@ -124,17 +132,19 @@ li {
 
 .header-hero-content {
   display: flex;
-    padding-left: 52px;
-    font-size: 31px;
-    font-weight: bold;
+  padding-left: 52px;
+  font-size: 31px;
+  font-weight: bold;
 }
+
 /* .header-hero-text{ */
 /* } */
 .video-web {
   height: 390px;
   padding-left: 75px;
 }
-div .float-left{
+
+div .float-left {
   position: relative;
   bottom: 240px;
   padding-left: 900px;
@@ -383,7 +393,7 @@ div .row {
   padding-left: 200px;
   position: relative;
   top: 7px;
-  
+
 }
 
 div.card {
@@ -421,7 +431,6 @@ div.row {
   margin: 122px auto;
   font-weight: 22px;
 
-
 }
 
 .thor {
@@ -435,10 +444,12 @@ div.row {
 
 .marvel {
   background-color: rgb(55, 5, 55);
-  height: 255px;
+  height: 343px;
   border-bottom-right-radius: 120px;
   border-bottom-left-radius: 120px;
+  margin-bottom: 12px;
 }
+
 
 .blackwidow {
   border-radius: 6px;
@@ -466,16 +477,21 @@ div.row {
   padding-left: 186px;
 }
 
+
 div footer img {
-  margin: 23px 12px;
-  border: 2px solid green;
-  display: flex;
-  width: 134px;
+  margin: 1px 9px;
+   
+    display: flex;
+    width: 92px;
+    height: 83px;
+    padding-top: 1px;
+    position: relative;
+    top: 130px;
+    left: 100px;
 }
 
-div .container3 .row{
+div .container3 .row {
   border: 2px solid rgb(237, 0, 39);
 }
-#spiderlink{
 
-}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
