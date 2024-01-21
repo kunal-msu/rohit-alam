@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar {
+    background-color: #4A154B;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .nav-links a:hover {
+    color: #00CC00;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #4A154B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 220px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .channel-category {
+    padding: 10px;
+  }
+  
+  .channel-category h3 {
+    color: #00CC00;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .channel-category a {
+    color: white;
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .channel-category a span {
+    color: #00CC00;
+    margin-right: 5px;
+  }
+  
+  .channel-category a:hover {
+    background-color: #008800;
+  }
+  
+  .user-actions button {
+    background-color: #00CC00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .user-actions button:hover {
+    background-color: #008800;
+  }
+  
