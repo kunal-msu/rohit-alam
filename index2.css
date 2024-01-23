@@ -113,6 +113,13 @@ li {
   margin-left: 20px;
 
 }
+.fa-magnifying-glass{
+  position: relative;
+  position: relative;
+  top: 16px;
+  right: -23px;
+  width: 14px;
+}
 
 .header-signed-out {
   display: flex;
@@ -605,19 +612,94 @@ div.row {
 
 .horizontal {
   font-weight: 500;
+  margin-bottom: 88px;
+
 }
- div hr ul{
+
+
+.kumfu {
   margin-top: -76px;
   display: flex;
   list-style: none;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
-  height: 70px;
+  height: 44px;
+  margin-bottom: 33px;
+  line-height: 54px;
 }
-ul:hover{
-  color: rgb(33, 79, 169);
+
+.kumfu li {
+
+  color: rgb(32, 30, 30);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: all .1s;
+  padding: 0px 3px 20px 9px;
 }
+
+.kumfu li :hover {
+  color: #2871dc;
+}
+
+.tick {
+  height: 22px;
+  width: 38px;
+  margin-top: 18px;
+  padding-left: 4px;
+}
+
+.footer-para {
+  font-size: 14px;
+  padding-left: 42px;
+  margin-top: -66px;
+
+}
+
+.fa-globe {
+  padding: 23px 2px 21px 15px;
+}
+
+.antity {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -97px;
+  width: 400px;
+  margin-left: 809px;
+
+}.download {
+  list-style: none;
+  position: relative;
+  top: 35px;
+  display: flex;
+}
+.derive{
+  width: 174px;
+  font-weight: 700;
+  color: rgb(11, 105, 193);
+}
+.fa-cloud-arrow-down{
+  color: rgb(11, 105, 193);
+}
+.fa-twitter:hover{
+  color: rgb(11, 105, 193);
+
+}
+.fa-facebook:hover{
+  color: rgb(11, 105, 193);
+
+}
+.fa-youtube:hover{
+  color: rgb(11, 105, 193);
+
+}
+.fa-linkedin:hover{
+  color: rgb(11, 105, 193);
+}
+
 
 .blackwidow {
   border-radius: 6px;
